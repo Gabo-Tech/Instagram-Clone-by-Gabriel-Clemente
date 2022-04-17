@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/auth/signin.tsx", "components/Modal.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/auth/signin.jsx", "components/Modal.jsx", "components/Feed.jsx", "components/Header.jsx", "components/MiniProfile.jsx", "components/Post.jsx", "components/Posts.jsx", "components/Stories.jsx", "components/Story.jsx", "components/Suggestions.jsx", "pages/index.tsx"],
   "exclude": ["node_modules"]
 }
