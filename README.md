@@ -1,4 +1,4 @@
-# Gabriel Clemente's Personal Website
+# Instagram Clone by Gabriel Clemente
 
 
 ![Web Mockup](Mockup.png)
