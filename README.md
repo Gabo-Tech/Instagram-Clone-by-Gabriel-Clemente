@@ -1,7 +1,8 @@
 # Instagram Clone by Gabriel Clemente
 
 
-![Web Mockup](Mockup.png) <div style="text-align:center"><img src="MobileMockUp.png" /></div>
+![Web Mockup](Mockup.png) 
+<div align:center style="text-align:center"><img src="MobileMockUp.png" /></div>
 
 
 Here my Instagram clone! Fully responsivethough it doesn't have all the functionality, but you can register with Google, sign in and upload pics, give likes and write comments!
