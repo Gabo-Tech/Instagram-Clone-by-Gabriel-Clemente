@@ -69,8 +69,8 @@ function Post({ id, username, userImg, img, caption}){
             username: session.user.username,
             userImage: session.user.image,
             timestamp: serverTimestamp(),
-        })
-    }
+        });
+    };
 
 
     return (
