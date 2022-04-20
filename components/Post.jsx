@@ -44,7 +44,7 @@ function Post({ id, username, userImg, img, caption}){
         () =>
             setHasLiked(
                 likes.findIndex((like) => like.id === session?.user?.uid) !== -1
-            ), 
+            ),
       [likes]
     );
 
@@ -88,9 +88,9 @@ function Post({ id, username, userImg, img, caption}){
                 <div className="flex justify-between px-4 pt-4">
                 <div className="flex space-x-4">
                     {hasLiked ? (
-                        <HeartIconFilled onClick={likePost} className="btn"/>
+                        <HeartIconFilled onClick={likePost} className="btn text-red-500"/>
                     ) : (
-                        <HeartIcon onClick={likePost} className="btn text-red-500"/>
+                        <HeartIcon onClick={likePost} className="btn"/>
                     )}
                     <ChatIcon className="btn"/>
                     <PaperAirplaneIcon className="btn rotate-45 h-6"/>
