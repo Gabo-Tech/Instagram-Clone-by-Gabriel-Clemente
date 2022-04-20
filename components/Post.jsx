@@ -59,7 +59,7 @@ function Post({ id, username, userImg, img, caption}){
     };
 
     const sendComment = async (e) => {
-        e.preventDefaut();
+        e.preventDefault();
 
         const commentToSend = comment;
         setComment('');
@@ -128,7 +128,7 @@ function Post({ id, username, userImg, img, caption}){
             {/* input box */}
             {session && (
                 <form className="flex items-center p-4" action="">
-                <EmojiHappyIcon className="h-7 "/>
+                <EmojiHappyIcon className="h-7"/>
                 <input 
                     className="border-none flex-1 focus:ring-0 outline-none" 
                     type="text"
