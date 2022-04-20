@@ -113,11 +113,11 @@ function Post({ id, username, userImg, img, caption}){
                         {comments.map((comment) => (
                             <div key={comment.id} className="flex items-center space-x-2 mb-3">
                                 <img 
-                                    className="h-7 rounded-full p-2" 
+                                    className="h-7 rounded-full" 
                                     src={comment.data().userImage} 
                                     alt="Profile pic" 
                                 />
-                                <p className="text-sm flex-1"><span className="font-bold">{comment.data().username}</span>{" "}{comment.data().comment}</p>
+                                <p className="text-sm flex-1">{" "}<span className="font-bold">{comment.data().username}</span>{" "}{comment.data().comment}</p>
                                 <Moment fromNow className="pr-5 text-xs">
                                     {comment.data().timestamp?.toDate()}
                                 </Moment>
