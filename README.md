@@ -36,7 +36,7 @@ This website it's been deployed and made available to the public thanks to [Verc
 
 ## Authors
 
-* **Gabriel Clemente, aka Gabo, your favourite web developer.** - *Initial work* - [Gabo](https://github.com/gabriel19971029)
+* **Gabriel Clemente, aka Gabo, your favorite web developer.** - *Initial work* - [Gabo](https://github.com/gabriel19971029)
 
 ## Contributors
 
