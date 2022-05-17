@@ -52,4 +52,4 @@ This project is licensed under the Creative Commons Public Domain License - Feel
 
 ## Acknowledgments
 
-* Thanks to PapaReact for teaching me React full-stack development. 
+* Thanks to [PapaReact](https://github.com/PapaReact) for teaching me React full-stack development. 
