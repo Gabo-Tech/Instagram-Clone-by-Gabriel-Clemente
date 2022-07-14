@@ -9,7 +9,7 @@
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.6",
     "@tailwindcss/forms": "^0.5.0",
-    "faker": "^5.5.3",
+    "faker": "^6.6.6",
     "firebase": "^9.6.11",
     "next": "latest",
     "next-auth": "4.0.0-beta.7",
